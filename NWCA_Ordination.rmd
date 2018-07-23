@@ -1,0 +1,10 @@
+---
+title: "NWCA_Ordination"
+output: html_document
+---
+
+## Start with subset of NWCA Data: All Estuarine Sites
+```{r}
+estuarine <- read.csv("estuarine_cvr.csv")
+```
+
